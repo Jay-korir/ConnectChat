@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFF"
+    android:orientation="vertical"
+    tools:context=".LogInActivity">
+
+
+    <EditText
+        android:id="@+id/logEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rounded_register"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="32sp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/logPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rounded_register"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textSize="32sp"
+        />
+    <Button
+        android:id="@+id/logButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:textSize="28sp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/BacktoReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Back to register"
+        android:textSize="16sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textColor="@color/black"
+        />
+</LinearLayout>
